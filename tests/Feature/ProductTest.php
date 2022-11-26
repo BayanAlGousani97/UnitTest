@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
-class UserTest extends TestCase
+class ProductTest extends TestCase
 {
     /**
      * A basic feature test example.
@@ -15,7 +15,7 @@ class UserTest extends TestCase
      */
     public function test_example()
     {
-        $response = $this->get('/users');
+        $response = $this->get('/products');
 
         $response->assertStatus(200);
     }
